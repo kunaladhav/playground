@@ -1,23 +1,9 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
-
-const companies = {
-  apple: {
-    employees: 100,
-    location: "California",
-  },
-  samsung: {
-    employees: 200,
-    location: "Seoul",
-  },
-};
+import { useCallback, useEffect, useMemo } from "react";
+import { Routes, Route, NavLink } from "react-router-dom";
+import Home from "./components/home.jsx";
+import Play from "./components/play.jsx";
 
 function App() {
-  const [selectedCompany, setSelectedCompany] = useState("apple");
-
-  const handleClick = (company) => {
-    setSelectedCompany(company);
-  };
-
   const summation = () => {
     console.log(2 + 3);
   };
@@ -34,21 +20,16 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <div>
-        <div className="" onClick={() => handleClick("apple")}>
-          Apple
-        </div>
-        <div className="" onClick={() => handleClick("samsung")}>
-          Samsung
-        </div>
-      </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Play />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
 
       <div>
-        {companies[selectedCompany].employees} -{" "}
-        {companies[selectedCompany].location}
+        <NavLink to={"/home"}>Home</NavLink>
       </div>
-    </div>
+    </>
   );
 }
 
