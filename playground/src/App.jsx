@@ -6,7 +6,8 @@
 // import SearchTerm from "./components/SearchTerm";
 // import Header from "./components/Header";
 // import Products from "./components/Products";
-import Notifications from "./components/Notifications";
+// import Notifications from "./components/Notifications";
+import SignupForm from "./components/SignupForm";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -24,7 +25,8 @@ function App() {
       <div>
         {/* <Header cart={cart} />
         <Products onAddToCart={handleAddToCart} cart={cart} /> */}
-        <Notifications />
+        {/* <Notifications /> */}
+        <SignupForm />
       </div>
     </>
   );
