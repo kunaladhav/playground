@@ -7,7 +7,8 @@
 // import Header from "./components/Header";
 // import Products from "./components/Products";
 // import Notifications from "./components/Notifications";
-import SignupForm from "./components/SignupForm";
+// import SignupForm from "./components/SignupForm";
+import TodoApp from "./Pages/TodoApp";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -26,7 +27,8 @@ function App() {
         {/* <Header cart={cart} />
         <Products onAddToCart={handleAddToCart} cart={cart} /> */}
         {/* <Notifications /> */}
-        <SignupForm />
+        {/* <SignupForm /> */}
+        <TodoApp />
       </div>
     </>
   );
