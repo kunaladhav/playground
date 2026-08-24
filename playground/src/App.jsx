@@ -8,7 +8,8 @@
 // import Products from "./components/Products";
 // import Notifications from "./components/Notifications";
 // import SignupForm from "./components/SignupForm";
-import TodoApp from "./Pages/TodoApp";
+// import TodoApp from "./Pages/TodoApp";
+import Shop from "./Pages/Shop";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -28,7 +29,8 @@ function App() {
         <Products onAddToCart={handleAddToCart} cart={cart} /> */}
         {/* <Notifications /> */}
         {/* <SignupForm /> */}
-        <TodoApp />
+        {/* <TodoApp /> */}
+        <Shop />
       </div>
     </>
   );
