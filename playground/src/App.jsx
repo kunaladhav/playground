@@ -9,7 +9,8 @@
 // import Notifications from "./components/Notifications";
 // import SignupForm from "./components/SignupForm";
 // import TodoApp from "./Pages/TodoApp";
-import Shop from "./Pages/Shop";
+// import Shop from "./Pages/Shop";
+import SearchProduct from "./components/SearchProduct";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -30,7 +31,8 @@ function App() {
         {/* <Notifications /> */}
         {/* <SignupForm /> */}
         {/* <TodoApp /> */}
-        <Shop />
+        {/* <Shop /> */}
+        <SearchProduct />
       </div>
     </>
   );
