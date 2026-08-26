@@ -40,7 +40,10 @@ const SearchProduct = () => {
             <input
               type="checkBox"
               value={selectedCategory}
-              onChange={() => setSelectedCategory(item)}
+              checked={selectedCategory === item}
+              onChange={(e) =>
+                setSelectedCategory(e.target.checked ? item : "")
+              }
             />
             {item}
           </div>

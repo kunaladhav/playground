@@ -10,7 +10,8 @@
 // import SignupForm from "./components/SignupForm";
 // import TodoApp from "./Pages/TodoApp";
 // import Shop from "./Pages/Shop";
-import SearchProduct from "./components/SearchProduct";
+// import SearchProduct from "./components/SearchProduct";
+import ProfileSetting from "./Pages/ProfileSetting";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -32,7 +33,8 @@ function App() {
         {/* <SignupForm /> */}
         {/* <TodoApp /> */}
         {/* <Shop /> */}
-        <SearchProduct />
+        {/* <SearchProduct /> */}
+        <ProfileSetting />
       </div>
     </>
   );
