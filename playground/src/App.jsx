@@ -11,7 +11,8 @@
 // import TodoApp from "./Pages/TodoApp";
 // import Shop from "./Pages/Shop";
 // import SearchProduct from "./components/SearchProduct";
-import ProfileSetting from "./Pages/ProfileSetting";
+// import ProfileSetting from "./Pages/ProfileSetting";
+import Debounce from "./components/Debounce";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -34,7 +35,8 @@ function App() {
         {/* <TodoApp /> */}
         {/* <Shop /> */}
         {/* <SearchProduct /> */}
-        <ProfileSetting />
+        {/* <ProfileSetting /> */}
+        <Debounce />
       </div>
     </>
   );
