@@ -14,7 +14,8 @@
 // import ProfileSetting from "./Pages/ProfileSetting";
 // import Debounce from "./components/Debounce";
 // import Pagination from "./components/Pagination";
-import SortableProductList from "./components/SortableProductList";
+// import SortableProductList from "./components/SortableProductList";
+import ProductPage from "./Pages/ProductPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -40,7 +41,8 @@ function App() {
         {/* <ProfileSetting /> */}
         {/* <Debounce /> */}
         {/* <Pagination /> */}
-        <SortableProductList />
+        {/* <SortableProductList /> */}
+        <ProductPage />
       </div>
     </>
   );
