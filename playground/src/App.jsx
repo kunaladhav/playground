@@ -15,7 +15,8 @@
 // import Debounce from "./components/Debounce";
 // import Pagination from "./components/Pagination";
 // import SortableProductList from "./components/SortableProductList";
-import ProductPage from "./Pages/ProductPage";
+// import ProductPage from "./Pages/ProductPage";
+import RevisionShop from "./Pages/RevisionShop";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -42,7 +43,8 @@ function App() {
         {/* <Debounce /> */}
         {/* <Pagination /> */}
         {/* <SortableProductList /> */}
-        <ProductPage />
+        {/* <ProductPage /> */}
+        <RevisionShop />
       </div>
     </>
   );
