@@ -16,7 +16,8 @@
 // import Pagination from "./components/Pagination";
 // import SortableProductList from "./components/SortableProductList";
 // import ProductPage from "./Pages/ProductPage";
-import RevisionShop from "./Pages/RevisionShop";
+// import RevisionShop from "./Pages/RevisionShop";
+import RevisionTodo from "./Pages/RevisionTodo";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -44,7 +45,8 @@ function App() {
         {/* <Pagination /> */}
         {/* <SortableProductList /> */}
         {/* <ProductPage /> */}
-        <RevisionShop />
+        {/* <RevisionShop /> */}
+        <RevisionTodo />
       </div>
     </>
   );
