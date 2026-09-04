@@ -18,7 +18,8 @@
 // import ProductPage from "./Pages/ProductPage";
 // import RevisionShop from "./Pages/RevisionShop";
 // import RevisionTodo from "./Pages/RevisionTodo";
-import NotesApp from "./Pages/NotesApp";
+// import NotesApp from "./Pages/NotesApp";
+import ShoppingCart from "./Pages/ShoppingCart";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -48,7 +49,8 @@ function App() {
         {/* <ProductPage /> */}
         {/* <RevisionShop /> */}
         {/* <RevisionTodo /> */}
-        <NotesApp />
+        {/* <NotesApp /> */}
+        <ShoppingCart />
       </div>
     </>
   );
