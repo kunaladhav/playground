@@ -20,7 +20,8 @@
 // import RevisionTodo from "./Pages/RevisionTodo";
 // import NotesApp from "./Pages/NotesApp";
 // import ShoppingCart from "./Pages/ShoppingCart";
-import ExpenseTracker from "./Pages/ExpenseTracker";
+// import ExpenseTracker from "./Pages/ExpenseTracker";
+import JobApplication from "./Pages/JobApplication";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -52,7 +53,8 @@ function App() {
         {/* <RevisionTodo /> */}
         {/* <NotesApp /> */}
         {/* <ShoppingCart /> */}
-        <ExpenseTracker />
+        {/* <ExpenseTracker /> */}
+        <JobApplication />
       </div>
     </>
   );
