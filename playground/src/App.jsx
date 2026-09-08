@@ -21,7 +21,8 @@
 // import NotesApp from "./Pages/NotesApp";
 // import ShoppingCart from "./Pages/ShoppingCart";
 // import ExpenseTracker from "./Pages/ExpenseTracker";
-import JobApplication from "./Pages/JobApplication";
+// import JobApplication from "./Pages/JobApplication";
+import UserDashboard from "./Pages/UserDashboard";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -54,7 +55,8 @@ function App() {
         {/* <NotesApp /> */}
         {/* <ShoppingCart /> */}
         {/* <ExpenseTracker /> */}
-        <JobApplication />
+        {/* <JobApplication /> */}
+        <UserDashboard />
       </div>
     </>
   );
