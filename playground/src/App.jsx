@@ -22,7 +22,8 @@
 // import ShoppingCart from "./Pages/ShoppingCart";
 // import ExpenseTracker from "./Pages/ExpenseTracker";
 // import JobApplication from "./Pages/JobApplication";
-import UserDashboard from "./Pages/UserDashboard";
+// import UserDashboard from "./Pages/UserDashboard";
+import InventoryManager from "./Pages/InventoryManager";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -56,7 +57,8 @@ function App() {
         {/* <ShoppingCart /> */}
         {/* <ExpenseTracker /> */}
         {/* <JobApplication /> */}
-        <UserDashboard />
+        {/* <UserDashboard /> */}
+        <InventoryManager />
       </div>
     </>
   );
