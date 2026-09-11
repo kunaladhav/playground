@@ -23,7 +23,8 @@
 // import ExpenseTracker from "./Pages/ExpenseTracker";
 // import JobApplication from "./Pages/JobApplication";
 // import UserDashboard from "./Pages/UserDashboard";
-import InventoryManager from "./Pages/InventoryManager";
+// import InventoryManager from "./Pages/InventoryManager";
+import ProductComparisonPage from "./Pages/ProductComparisonPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -58,7 +59,8 @@ function App() {
         {/* <ExpenseTracker /> */}
         {/* <JobApplication /> */}
         {/* <UserDashboard /> */}
-        <InventoryManager />
+        {/* <InventoryManager /> */}
+        <ProductComparisonPage />
       </div>
     </>
   );
