@@ -30,7 +30,7 @@ const initialProducts = [
 ];
 
 const ProductComparisonPage = () => {
-  const [products, setProducts] = useState(initialProducts);
+  const products = initialProducts;
   const [compareList, setCompareList] = useState([]);
 
   const addToCompare = (product) => {
