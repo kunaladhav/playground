@@ -24,7 +24,8 @@
 // import JobApplication from "./Pages/JobApplication";
 // import UserDashboard from "./Pages/UserDashboard";
 // import InventoryManager from "./Pages/InventoryManager";
-import ProductComparisonPage from "./Pages/ProductComparisonPage";
+// import ProductComparisonPage from "./Pages/ProductComparisonPage";
+import ProductWishlistPage from "./Pages/ProductWishlistPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -60,7 +61,8 @@ function App() {
         {/* <JobApplication /> */}
         {/* <UserDashboard /> */}
         {/* <InventoryManager /> */}
-        <ProductComparisonPage />
+        {/* <ProductComparisonPage /> */}
+        <ProductWishlistPage />
       </div>
     </>
   );
