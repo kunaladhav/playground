@@ -25,7 +25,8 @@
 // import UserDashboard from "./Pages/UserDashboard";
 // import InventoryManager from "./Pages/InventoryManager";
 // import ProductComparisonPage from "./Pages/ProductComparisonPage";
-import ProductWishlistPage from "./Pages/ProductWishlistPage";
+// import ProductWishlistPage from "./Pages/ProductWishlistPage";
+import ProductRatingPage from "./Pages/ProductRatingPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -62,7 +63,8 @@ function App() {
         {/* <UserDashboard /> */}
         {/* <InventoryManager /> */}
         {/* <ProductComparisonPage /> */}
-        <ProductWishlistPage />
+        {/*<ProductWishlistPage />*/}
+        <ProductRatingPage />
       </div>
     </>
   );
