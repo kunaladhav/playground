@@ -26,7 +26,8 @@
 // import InventoryManager from "./Pages/InventoryManager";
 // import ProductComparisonPage from "./Pages/ProductComparisonPage";
 // import ProductWishlistPage from "./Pages/ProductWishlistPage";
-import ProductRatingPage from "./Pages/ProductRatingPage";
+// import ProductRatingPage from "./Pages/ProductRatingPage";
+import ShoppingCartCoupon from "./Pages/ShoppingCartCoupon";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -64,7 +65,8 @@ function App() {
         {/* <InventoryManager /> */}
         {/* <ProductComparisonPage /> */}
         {/*<ProductWishlistPage />*/}
-        <ProductRatingPage />
+        {/* <ProductRatingPage /> */}
+        <ShoppingCartCoupon />
       </div>
     </>
   );
