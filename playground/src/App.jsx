@@ -27,7 +27,8 @@
 // import ProductComparisonPage from "./Pages/ProductComparisonPage";
 // import ProductWishlistPage from "./Pages/ProductWishlistPage";
 // import ProductRatingPage from "./Pages/ProductRatingPage";
-import ShoppingCartCoupon from "./Pages/ShoppingCartCoupon";
+// import ShoppingCartCoupon from "./Pages/ShoppingCartCoupon";
+import ShoppingCartShipping from "./Pages/ShoppingCartShipping";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -66,7 +67,8 @@ function App() {
         {/* <ProductComparisonPage /> */}
         {/*<ProductWishlistPage />*/}
         {/* <ProductRatingPage /> */}
-        <ShoppingCartCoupon />
+        {/* <ShoppingCartCoupon /> */}
+        <ShoppingCartShipping />
       </div>
     </>
   );
