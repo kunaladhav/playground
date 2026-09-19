@@ -2,6 +2,8 @@
 // import Home from "./components/home.jsx";
 // import Play from "./components/play.jsx";
 
+import RecentShop from "./Pages/RecentShop";
+
 // import Sidebar from "./components/Sidebar.jsx";
 // import SearchTerm from "./components/SearchTerm";
 // import Header from "./components/Header";
@@ -29,7 +31,7 @@
 // import ProductRatingPage from "./Pages/ProductRatingPage";
 // import ShoppingCartCoupon from "./Pages/ShoppingCartCoupon";
 // import ShoppingCartShipping from "./Pages/ShoppingCartShipping";
-import LocalShop from "./Pages/LocalShop";
+// import LocalShop from "./Pages/LocalShop";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -70,7 +72,8 @@ function App() {
         {/* <ProductRatingPage /> */}
         {/* <ShoppingCartCoupon /> */}
         {/* <ShoppingCartShipping /> */}
-        <LocalShop />
+        {/* <LocalShop /> */}
+        <RecentShop />
       </div>
     </>
   );
