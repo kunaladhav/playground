@@ -28,7 +28,8 @@
 // import ProductWishlistPage from "./Pages/ProductWishlistPage";
 // import ProductRatingPage from "./Pages/ProductRatingPage";
 // import ShoppingCartCoupon from "./Pages/ShoppingCartCoupon";
-import ShoppingCartShipping from "./Pages/ShoppingCartShipping";
+// import ShoppingCartShipping from "./Pages/ShoppingCartShipping";
+import LocalShop from "./Pages/LocalShop";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -68,7 +69,8 @@ function App() {
         {/*<ProductWishlistPage />*/}
         {/* <ProductRatingPage /> */}
         {/* <ShoppingCartCoupon /> */}
-        <ShoppingCartShipping />
+        {/* <ShoppingCartShipping /> */}
+        <LocalShop />
       </div>
     </>
   );
