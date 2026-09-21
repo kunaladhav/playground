@@ -30,7 +30,8 @@
 // import ShoppingCartShipping from "./Pages/ShoppingCartShipping";
 // import LocalShop from "./Pages/LocalShop";
 // import RecentShop from "./Pages/RecentShop";
-import DebounceProduct from "./Pages/DebounceProduct";
+// import DebounceProduct from "./Pages/DebounceProduct";
+import ProductManagementDashboard from "./Pages/ProductManagementDashboard";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -73,7 +74,8 @@ function App() {
         {/* <ShoppingCartShipping /> */}
         {/* <LocalShop /> */}
         {/* <RecentShop /> */}
-        <DebounceProduct />
+        {/* <DebounceProduct /> */}
+        <ProductManagementDashboard />
       </div>
     </>
   );
