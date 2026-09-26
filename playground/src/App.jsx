@@ -33,7 +33,8 @@
 // import DebounceProduct from "./Pages/DebounceProduct";
 // import ProductManagementDashboard from "./Pages/ProductManagementDashboard";
 // import ShopCheckout from "./Pages/ShopCheckout";
-import ShopStock from "./Pages/ShopStock";
+// import ShopStock from "./Pages/ShopStock";
+import ShopVariants from "./Pages/ShopVariants";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -79,7 +80,8 @@ function App() {
         {/* <DebounceProduct /> */}
         {/* <ProductManagementDashboard /> */}
         {/* <ShopCheckout /> */}
-        <ShopStock />
+        {/* <ShopStock /> */}
+        <ShopVariants />
       </div>
     </>
   );
