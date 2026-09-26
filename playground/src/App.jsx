@@ -34,7 +34,8 @@
 // import ProductManagementDashboard from "./Pages/ProductManagementDashboard";
 // import ShopCheckout from "./Pages/ShopCheckout";
 // import ShopStock from "./Pages/ShopStock";
-import ShopVariants from "./Pages/ShopVariants";
+// import ShopVariants from "./Pages/ShopVariants";
+import LocalShop2 from "./Pages/LocalShop2";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -81,7 +82,8 @@ function App() {
         {/* <ProductManagementDashboard /> */}
         {/* <ShopCheckout /> */}
         {/* <ShopStock /> */}
-        <ShopVariants />
+        {/* <ShopVariants /> */}
+        <LocalShop2 />
       </div>
     </>
   );
