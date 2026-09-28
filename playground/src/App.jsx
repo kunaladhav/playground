@@ -35,7 +35,8 @@
 // import ShopCheckout from "./Pages/ShopCheckout";
 // import ShopStock from "./Pages/ShopStock";
 // import ShopVariants from "./Pages/ShopVariants";
-import LocalShop2 from "./Pages/LocalShop2";
+// import LocalShop2 from "./Pages/LocalShop2";
+import UseEffectRun from "./components/UseEffectRun";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -83,7 +84,8 @@ function App() {
         {/* <ShopCheckout /> */}
         {/* <ShopStock /> */}
         {/* <ShopVariants /> */}
-        <LocalShop2 />
+        {/*<LocalShop2 />*/}
+        <UseEffectRun />
       </div>
     </>
   );
