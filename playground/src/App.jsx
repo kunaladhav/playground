@@ -38,7 +38,8 @@
 // import LocalShop2 from "./Pages/LocalShop2";
 // import UseEffectRun from "./components/UseEffectRun";
 // import TimerUse from "./Pages/TimerUse";
-import KeydownPage from "./Pages/KeydownPage";
+// import KeydownPage from "./Pages/KeydownPage";
+import ResizePage from "./Pages/ResizePage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -89,7 +90,8 @@ function App() {
         {/*<LocalShop2 />*/}
         {/* <UseEffectRun /> */}
         {/* <TimerUse /> */}
-        <KeydownPage />
+        {/* <KeydownPage /> */}
+        <ResizePage />
       </div>
     </>
   );
