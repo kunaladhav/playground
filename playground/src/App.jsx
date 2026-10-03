@@ -39,7 +39,8 @@
 // import UseEffectRun from "./components/UseEffectRun";
 // import TimerUse from "./Pages/TimerUse";
 // import KeydownPage from "./Pages/KeydownPage";
-import ResizePage from "./Pages/ResizePage";
+// import ResizePage from "./Pages/ResizePage";
+import EffectRefPage from "./Pages/EffectRefPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -91,7 +92,8 @@ function App() {
         {/* <UseEffectRun /> */}
         {/* <TimerUse /> */}
         {/* <KeydownPage /> */}
-        <ResizePage />
+        {/* <ResizePage /> */}
+        <EffectRefPage />
       </div>
     </>
   );
