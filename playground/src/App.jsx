@@ -41,7 +41,8 @@
 // import KeydownPage from "./Pages/KeydownPage";
 // import ResizePage from "./Pages/ResizePage";
 // import EffectRefPage from "./Pages/EffectRefPage";
-import UseRefFocus from "./components/UseRefFocus";
+// import UseRefFocus from "./components/UseRefFocus";
+import ClickOutside from "./Pages/ClickOutside";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -95,7 +96,8 @@ function App() {
         {/* <KeydownPage /> */}
         {/* <ResizePage /> */}
         {/* <EffectRefPage /> */}
-        <UseRefFocus />
+        {/* <UseRefFocus /> */}
+        <ClickOutside />
       </div>
     </>
   );
