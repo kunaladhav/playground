@@ -1,13 +1,13 @@
 import { useRef, useState } from "react";
 
 const ClickRefButton = () => {
-  const [renderCount, setRenderCount] = useState(1);
+  // const [renderCount, setRenderCount] = useState(1);
   const [count, setCount] = useState(0);
 
   const clickButton = useRef(0);
 
   const handleClick = () => {
-    // setCount((prev) => prev + 1);
+    setCount((prev) => prev + 1);
     clickButton.current += 1;
     console.log(clickButton.current);
   };
@@ -15,7 +15,7 @@ const ClickRefButton = () => {
   return (
     <div>
       <div>
-        <p>Render Count: {renderCount}</p>
+        <p>Render Count: {}</p>
 
         <button onClick={handleClick}>Click me</button>
 
