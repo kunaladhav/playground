@@ -42,7 +42,8 @@
 // import ResizePage from "./Pages/ResizePage";
 // import EffectRefPage from "./Pages/EffectRefPage";
 // import UseRefFocus from "./components/UseRefFocus";
-import ClickOutside from "./Pages/ClickOutside";
+// import ClickOutside from "./Pages/ClickOutside";
+import ClickRefButton from "./Pages/ClickRefButton";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -97,7 +98,8 @@ function App() {
         {/* <ResizePage /> */}
         {/* <EffectRefPage /> */}
         {/* <UseRefFocus /> */}
-        <ClickOutside />
+        {/* <ClickOutside /> */}
+        <ClickRefButton />
       </div>
     </>
   );
