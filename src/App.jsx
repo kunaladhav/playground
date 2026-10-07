@@ -43,7 +43,8 @@
 // import EffectRefPage from "./Pages/EffectRefPage";
 // import UseRefFocus from "./components/UseRefFocus";
 // import ClickOutside from "./Pages/ClickOutside";
-import ClickRefButton from "./Pages/ClickRefButton";
+// import ClickRefButton from "./Pages/ClickRefButton";
+import TimerPage from "./Pages/TimerPage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -99,7 +100,8 @@ function App() {
         {/* <EffectRefPage /> */}
         {/* <UseRefFocus /> */}
         {/* <ClickOutside /> */}
-        <ClickRefButton />
+        {/* <ClickRefButton /> */}
+        <TimerPage />
       </div>
     </>
   );
