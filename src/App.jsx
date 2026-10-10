@@ -45,7 +45,9 @@
 // import ClickOutside from "./Pages/ClickOutside";
 // import ClickRefButton from "./Pages/ClickRefButton";
 // import TimerPage from "./Pages/TimerPage";
-import InputRef from "./Pages/InputRef";
+// import InputRef from "./Pages/InputRef";
+// import RefKeyboardShort from "./Pages/RefKeyboardShort";
+import DebounceRevision from "./Pages/DebounceRevision";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -103,7 +105,9 @@ function App() {
         {/* <ClickOutside /> */}
         {/* <ClickRefButton /> */}
         {/* <TimerPage /> */}
-        <InputRef />
+        {/* <InputRef /> */}
+        {/* <RefKeyboardShort /> */}
+        <DebounceRevision />
       </div>
     </>
   );
