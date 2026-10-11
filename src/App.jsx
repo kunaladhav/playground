@@ -47,7 +47,8 @@
 // import TimerPage from "./Pages/TimerPage";
 // import InputRef from "./Pages/InputRef";
 // import RefKeyboardShort from "./Pages/RefKeyboardShort";
-import DebounceRevision from "./Pages/DebounceRevision";
+// import DebounceRevision from "./Pages/DebounceRevision";
+import SettingsForm from "./Pages/SettingsForm";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -107,7 +108,8 @@ function App() {
         {/* <TimerPage /> */}
         {/* <InputRef /> */}
         {/* <RefKeyboardShort /> */}
-        <DebounceRevision />
+        {/* <DebounceRevision /> */}
+        <SettingsForm />
       </div>
     </>
   );
