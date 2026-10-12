@@ -48,7 +48,8 @@
 // import InputRef from "./Pages/InputRef";
 // import RefKeyboardShort from "./Pages/RefKeyboardShort";
 // import DebounceRevision from "./Pages/DebounceRevision";
-import SettingsForm from "./Pages/SettingsForm";
+// import SettingsForm from "./Pages/SettingsForm";
+import UserManagement from "./Pages/UserManagement";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -109,7 +110,8 @@ function App() {
         {/* <InputRef /> */}
         {/* <RefKeyboardShort /> */}
         {/* <DebounceRevision /> */}
-        <SettingsForm />
+        {/* <SettingsForm /> */}
+        <UserManagement />
       </div>
     </>
   );
