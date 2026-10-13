@@ -49,7 +49,8 @@
 // import RefKeyboardShort from "./Pages/RefKeyboardShort";
 // import DebounceRevision from "./Pages/DebounceRevision";
 // import SettingsForm from "./Pages/SettingsForm";
-import UserManagement from "./Pages/UserManagement";
+// import UserManagement from "./Pages/UserManagement";
+import SearchRace from "./Pages/SearchRace";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -111,7 +112,8 @@ function App() {
         {/* <RefKeyboardShort /> */}
         {/* <DebounceRevision /> */}
         {/* <SettingsForm /> */}
-        <UserManagement />
+        {/* <UserManagement /> */}
+        <SearchRace />
       </div>
     </>
   );
