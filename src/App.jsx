@@ -50,7 +50,8 @@
 // import DebounceRevision from "./Pages/DebounceRevision";
 // import SettingsForm from "./Pages/SettingsForm";
 // import UserManagement from "./Pages/UserManagement";
-import SearchRace from "./Pages/SearchRace";
+// import SearchRace from "./Pages/SearchRace";
+import UserDelete from "./Pages/UserDelete";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -113,7 +114,8 @@ function App() {
         {/* <DebounceRevision /> */}
         {/* <SettingsForm /> */}
         {/* <UserManagement /> */}
-        <SearchRace />
+        {/* <SearchRace /> */}
+        <UserDelete />
       </div>
     </>
   );
