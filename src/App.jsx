@@ -51,7 +51,8 @@
 // import SettingsForm from "./Pages/SettingsForm";
 // import UserManagement from "./Pages/UserManagement";
 // import SearchRace from "./Pages/SearchRace";
-import UserDelete from "./Pages/UserDelete";
+// import UserDelete from "./Pages/UserDelete";
+import UserPersistent from "./Pages/UserPersistent";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -115,7 +116,8 @@ function App() {
         {/* <SettingsForm /> */}
         {/* <UserManagement /> */}
         {/* <SearchRace /> */}
-        <UserDelete />
+        {/* <UserDelete /> */}
+        <UserPersistent />
       </div>
     </>
   );
