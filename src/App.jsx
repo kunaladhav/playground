@@ -52,7 +52,8 @@
 // import UserManagement from "./Pages/UserManagement";
 // import SearchRace from "./Pages/SearchRace";
 // import UserDelete from "./Pages/UserDelete";
-import UserPersistent from "./Pages/UserPersistent";
+// import UserPersistent from "./Pages/UserPersistent";
+import UseReducerShop from "./Pages/UseReducerShop";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -117,7 +118,8 @@ function App() {
         {/* <UserManagement /> */}
         {/* <SearchRace /> */}
         {/* <UserDelete /> */}
-        <UserPersistent />
+        {/* <UserPersistent /> */}
+        <UseReducerShop />
       </div>
     </>
   );
