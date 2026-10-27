@@ -53,7 +53,8 @@
 // import SearchRace from "./Pages/SearchRace";
 // import UserDelete from "./Pages/UserDelete";
 // import UserPersistent from "./Pages/UserPersistent";
-import UseReducerShop from "./Pages/UseReducerShop";
+// import UseReducerShop from "./Pages/UseReducerShop";
+import ShopApp from "./Pages/ShopApp";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -119,7 +120,8 @@ function App() {
         {/* <SearchRace /> */}
         {/* <UserDelete /> */}
         {/* <UserPersistent /> */}
-        <UseReducerShop />
+        {/* <UseReducerShop /> */}
+        <ShopApp />
       </div>
     </>
   );
