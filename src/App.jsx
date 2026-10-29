@@ -54,7 +54,8 @@
 // import UserDelete from "./Pages/UserDelete";
 // import UserPersistent from "./Pages/UserPersistent";
 // import UseReducerShop from "./Pages/UseReducerShop";
-import ShopApp from "./Pages/ShopApp";
+// import ShopApp from "./Pages/ShopApp";
+import ThemePage from "./Pages/ThemePage";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -121,7 +122,8 @@ function App() {
         {/* <UserDelete /> */}
         {/* <UserPersistent /> */}
         {/* <UseReducerShop /> */}
-        <ShopApp />
+        {/* <ShopApp /> */}
+        <ThemePage />
       </div>
     </>
   );
