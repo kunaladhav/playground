@@ -56,7 +56,8 @@
 // import UseReducerShop from "./Pages/UseReducerShop";
 // import ShopApp from "./Pages/ShopApp";
 // import ThemePage from "./Pages/ThemePage";
-import AuthApp from "./Pages/AuthApp";
+// import AuthApp from "./Pages/AuthApp";
+import MemoApp from "./Pages/MemoApp";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -125,7 +126,8 @@ function App() {
         {/* <UseReducerShop /> */}
         {/* <ShopApp /> */}
         {/* <ThemePage /> */}
-        <AuthApp />
+        {/* <AuthApp /> */}
+        <MemoApp />
       </div>
     </>
   );
