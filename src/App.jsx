@@ -57,7 +57,8 @@
 // import ShopApp from "./Pages/ShopApp";
 // import ThemePage from "./Pages/ThemePage";
 // import AuthApp from "./Pages/AuthApp";
-import MemoApp from "./Pages/MemoApp";
+// import MemoApp from "./Pages/MemoApp";
+import CallbackApp from "./Pages/CallbackApp";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -127,7 +128,8 @@ function App() {
         {/* <ShopApp /> */}
         {/* <ThemePage /> */}
         {/* <AuthApp /> */}
-        <MemoApp />
+        {/* <MemoApp /> */}
+        <CallbackApp />
       </div>
     </>
   );
