@@ -58,7 +58,8 @@
 // import ThemePage from "./Pages/ThemePage";
 // import AuthApp from "./Pages/AuthApp";
 // import MemoApp from "./Pages/MemoApp";
-import CallbackApp from "./Pages/CallbackApp";
+// import CallbackApp from "./Pages/CallbackApp";
+import MemoCalculations from "./Pages/MemoCalculations";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -129,7 +130,8 @@ function App() {
         {/* <ThemePage /> */}
         {/* <AuthApp /> */}
         {/* <MemoApp /> */}
-        <CallbackApp />
+        {/* <CallbackApp /> */}
+        <MemoCalculations />
       </div>
     </>
   );
