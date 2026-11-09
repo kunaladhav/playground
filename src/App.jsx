@@ -59,7 +59,8 @@
 // import AuthApp from "./Pages/AuthApp";
 // import MemoApp from "./Pages/MemoApp";
 // import CallbackApp from "./Pages/CallbackApp";
-import MemoCalculations from "./Pages/MemoCalculations";
+// import MemoCalculations from "./Pages/MemoCalculations";
+import OptiProductDashboard from "./Pages/OptiProductDashboard";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -131,7 +132,8 @@ function App() {
         {/* <AuthApp /> */}
         {/* <MemoApp /> */}
         {/* <CallbackApp /> */}
-        <MemoCalculations />
+        {/* <MemoCalculations /> */}
+        <OptiProductDashboard />
       </div>
     </>
   );
