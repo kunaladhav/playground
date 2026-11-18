@@ -61,7 +61,12 @@
 // import CallbackApp from "./Pages/CallbackApp";
 // import MemoCalculations from "./Pages/MemoCalculations";
 // import OptiProductDashboard from "./Pages/OptiProductDashboard";
-import CartDashboard from "./Pages/CartDashboard";
+// import CartDashboard from "./Pages/CartDashboard";
+import { Route, Routes } from "react-router-dom";
+import RouteHome from "./Pages/RouteHome";
+import RouteProjects from "./Pages/RouteProjects";
+import RouteAbout from "./Pages/RouteAbout";
+import RouteContact from "./Pages/RouteContact";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -135,7 +140,14 @@ function App() {
         {/* <CallbackApp /> */}
         {/* <MemoCalculations /> */}
         {/* <OptiProductDashboard /> */}
-        <CartDashboard />
+        {/* <CartDashboard /> */}
+
+        <Routes>
+          <Route path="/" element={<RouteHome />} />
+          <Route path="/projects" element={<RouteProjects />} />
+          <Route path="/about" element={<RouteAbout />} />
+          <Route path="/contacts" element={<RouteContact />} />
+        </Routes>
       </div>
     </>
   );
