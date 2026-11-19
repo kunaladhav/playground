@@ -63,10 +63,15 @@
 // import OptiProductDashboard from "./Pages/OptiProductDashboard";
 // import CartDashboard from "./Pages/CartDashboard";
 import { Route, Routes } from "react-router-dom";
-import RouteHome from "./Pages/RouteHome";
-import RouteProjects from "./Pages/RouteProjects";
-import RouteAbout from "./Pages/RouteAbout";
-import RouteContact from "./Pages/RouteContact";
+// import RouteHome from "./Pages/RouteHome";
+// import RouteProjects from "./Pages/RouteProjects";
+// import RouteAbout from "./Pages/RouteAbout";
+// import RouteContact from "./Pages/RouteContact";
+import DashboardNavbar from "./components/DashboardNavbar";
+import RouteDashboard from "./Pages/RouteDashboard";
+import RouteDashboardProjects from "./Pages/RouteDashboardProjects";
+import RouteDashboardTasks from "./Pages/RouteDashboardTasks";
+import RouteDashboardSettings from "./Pages/RouteDashboardSettings";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -142,11 +147,25 @@ function App() {
         {/* <OptiProductDashboard /> */}
         {/* <CartDashboard /> */}
 
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<RouteHome />} />
           <Route path="/projects" element={<RouteProjects />} />
           <Route path="/about" element={<RouteAbout />} />
           <Route path="/contacts" element={<RouteContact />} />
+        </Routes> */}
+
+        <DashboardNavbar />
+        <Routes>
+          <Route path="/dashboard" element={<RouteDashboard />} />
+          <Route
+            path="/dashboard/projects"
+            element={<RouteDashboardProjects />}
+          />
+          <Route path="/dashboard/tasks" element={<RouteDashboardTasks />} />
+          <Route
+            path="/dashboard/settings"
+            element={<RouteDashboardSettings />}
+          />
         </Routes>
       </div>
     </>
