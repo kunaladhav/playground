@@ -72,6 +72,9 @@ import RouteDashboard from "./Pages/RouteDashboard";
 import RouteDashboardProjects from "./Pages/RouteDashboardProjects";
 import RouteDashboardTasks from "./Pages/RouteDashboardTasks";
 import RouteDashboardSettings from "./Pages/RouteDashboardSettings";
+import RouteDashboardProfile from "./Pages/RouteDashboardProfile";
+import RouteProfileAccount from "./Pages/RouteProfileAccount";
+import RouteProfileSecurity from "./Pages/RouteProfileSecurity";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -166,6 +169,10 @@ function App() {
             path="/dashboard/settings"
             element={<RouteDashboardSettings />}
           />
+          <Route path="/dashboard/profile" element={<RouteDashboardProfile />}>
+            <Route path="account" element={<RouteProfileAccount />} />
+            <Route path="security" element={<RouteProfileSecurity />} />
+          </Route>
         </Routes>
       </div>
     </>

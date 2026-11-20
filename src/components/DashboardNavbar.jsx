@@ -58,6 +58,19 @@ const DashboardNavbar = () => {
               Settings
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to={"/dashboard/profile"}
+              style={({ isActive }) => ({
+                background: isActive ? "black" : "white",
+                fontWeight: isActive ? "bold" : "normal",
+                color: isActive ? "white" : "black",
+                textDecoration: "none",
+              })}
+            >
+              Profile
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>
