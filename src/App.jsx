@@ -75,8 +75,9 @@ import { Route, Routes } from "react-router-dom";
 // import RouteDashboardProfile from "./Pages/RouteDashboardProfile";
 // import RouteProfileAccount from "./Pages/RouteProfileAccount";
 // import RouteProfileSecurity from "./Pages/RouteProfileSecurity";
-import ExplorerProducts from "./Pages/ExplorerProducts";
-import ExplorerProductsDetails from "./Pages/ExplorerProductsDetails";
+// import ExplorerProducts from "./Pages/ExplorerProducts";
+// import ExplorerProductsDetails from "./Pages/ExplorerProductsDetails";
+import ProductsQuery from "./Pages/ProductsQuery";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -177,9 +178,13 @@ function App() {
           </Route>
         </Routes> */}
 
-        <Routes>
+        {/* <Routes>
           <Route path="/products" element={<ExplorerProducts />} />
           <Route path="/products/:id" element={<ExplorerProductsDetails />} />
+        </Routes> */}
+
+        <Routes>
+          <Route path="/products" element={<ProductsQuery />} />
         </Routes>
       </div>
     </>
