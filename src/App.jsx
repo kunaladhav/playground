@@ -67,14 +67,16 @@ import { Route, Routes } from "react-router-dom";
 // import RouteProjects from "./Pages/RouteProjects";
 // import RouteAbout from "./Pages/RouteAbout";
 // import RouteContact from "./Pages/RouteContact";
-import DashboardNavbar from "./components/DashboardNavbar";
-import RouteDashboard from "./Pages/RouteDashboard";
-import RouteDashboardProjects from "./Pages/RouteDashboardProjects";
-import RouteDashboardTasks from "./Pages/RouteDashboardTasks";
-import RouteDashboardSettings from "./Pages/RouteDashboardSettings";
-import RouteDashboardProfile from "./Pages/RouteDashboardProfile";
-import RouteProfileAccount from "./Pages/RouteProfileAccount";
-import RouteProfileSecurity from "./Pages/RouteProfileSecurity";
+// import DashboardNavbar from "./components/DashboardNavbar";
+// import RouteDashboard from "./Pages/RouteDashboard";
+// import RouteDashboardProjects from "./Pages/RouteDashboardProjects";
+// import RouteDashboardTasks from "./Pages/RouteDashboardTasks";
+// import RouteDashboardSettings from "./Pages/RouteDashboardSettings";
+// import RouteDashboardProfile from "./Pages/RouteDashboardProfile";
+// import RouteProfileAccount from "./Pages/RouteProfileAccount";
+// import RouteProfileSecurity from "./Pages/RouteProfileSecurity";
+import ExplorerProducts from "./Pages/ExplorerProducts";
+import ExplorerProductsDetails from "./Pages/ExplorerProductsDetails";
 
 function App() {
   // const [cart, setCart] = useState([]);
@@ -157,7 +159,7 @@ function App() {
           <Route path="/contacts" element={<RouteContact />} />
         </Routes> */}
 
-        <DashboardNavbar />
+        {/* <DashboardNavbar />
         <Routes>
           <Route path="/dashboard" element={<RouteDashboard />} />
           <Route
@@ -173,6 +175,11 @@ function App() {
             <Route path="account" element={<RouteProfileAccount />} />
             <Route path="security" element={<RouteProfileSecurity />} />
           </Route>
+        </Routes> */}
+
+        <Routes>
+          <Route path="/products" element={<ExplorerProducts />} />
+          <Route path="/products/:id" element={<ExplorerProductsDetails />} />
         </Routes>
       </div>
     </>
